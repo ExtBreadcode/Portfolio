@@ -1,7 +1,8 @@
 // Example of adding interactivity (e.g., scroll animations, form validation)
 document.addEventListener("DOMContentLoaded", function () {
     console.log("Website loaded!");
-   function showProjects(type) {
+    // Add additional JS functionality here
+    function showProjects(type) {
     const software = document.getElementById('softwareProjects');
     const hardware = document.getElementById('hardwareProjects');
     const softwareBtn = document.getElementById('softwareBtn');
