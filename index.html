@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Devin Stewart | Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
     <!-- 100% privacy-first analytics -->
-<script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-
+    <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
 </head>
 <body>
     <!-- Header Section -->
@@ -38,57 +37,55 @@
     </section>
 
     <!-- Projects Section -->
-    <!-- Projects Section -->
-<section id="projects">
-    <h2>My Projects</h2>
-    
-    <div class="project-toggle-buttons">
-        <button id="softwareBtn" class="active" onclick="showProjects('software')">Software</button>
-        <button id="hardwareBtn" onclick="showProjects('hardware')">Hardware</button>
-    </div>
+    <section id="projects">
+        <h2>My Projects</h2>
 
-    <!-- Software Projects -->
-    <div id="softwareProjects" class="project-group active">
-        <div class="project-card animate">
-            <h3>Budget Tracker App</h3>
-            <p>A Java-based app that helps users with budgeting.</p>
-            <a href="https://github.com/ExtBreadcode/BudgetTrackerApp" target="_blank">View on GitHub</a>
+        <div class="project-toggle-buttons">
+            <button id="softwareBtn" class="active">Software</button>
+            <button id="hardwareBtn">Hardware</button>
         </div>
-        <div class="project-card animate">
-            <h3>VDI Optimizer</h3>
-            <p>A VDI optimizer made with Python.</p>
-            <a href="https://github.com/ExtBreadcode/vdi_optimizer" target="_blank">View on GitHub</a>
-        </div>
-    </div>
 
-    <!-- Hardware Projects -->
-    <div id="hardwareProjects" class="project-group">
-        <div class="project-card animate">
-            <h3>iPhone Repair</h3>
-            <p>Replaced batteries, screens, and performed logic board microsoldering.</p>
-            <img src="images/iphone_repair.jpg" alt="iPhone repair" width="300">
+        <!-- Software Projects -->
+        <div id="softwareProjects" class="project-group active">
+            <div class="project-card animate">
+                <h3>Budget Tracker App</h3>
+                <p>A Java-based app that helps users with budgeting.</p>
+                <a href="https://github.com/ExtBreadcode/BudgetTrackerApp" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+            </div>
+            <div class="project-card animate">
+                <h3>VDI Optimizer</h3>
+                <p>A VDI optimizer made with Python.</p>
+                <a href="https://github.com/ExtBreadcode/vdi_optimizer" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+            </div>
         </div>
-        <div class="project-card animate">
-            <h3>Console HDMI Port Repair</h3>
-            <p>Used soldering tools to replace HDMI ports on PS5 and Xbox systems.</p>
-            <img src="images/hdmi_solder.jpg" alt="HDMI soldering" width="300">
-        </div>
-    </div>
-</section>
 
+        <!-- Hardware Projects -->
+        <div id="hardwareProjects" class="project-group">
+            <div class="project-card animate">
+                <h3>iPhone Repair</h3>
+                <p>Replaced batteries, screens, and performed logic board microsoldering.</p>
+                <img src="iphone_repair.jpg" alt="iPhone repair" style="max-width: 100%;" />
+            </div>
+            <div class="project-card animate">
+                <h3>Console HDMI Port Repair</h3>
+                <p>Used soldering tools to replace HDMI ports on PS5 and Xbox systems.</p>
+                <img src="hdmi_soldering.jpg" alt="HDMI soldering" style="max-width: 100%;" />
+            </div>
+        </div>
+    </section>
 
     <!-- Contact Section -->
     <section id="contact">
         <h2>Contact Me</h2>
         <form action="mailto:stewartdevin121@gmail.com" method="post" enctype="text/plain">
-            <input type="text" name="name" placeholder="Your Name" required>
-            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
             <textarea name="message" placeholder="Your Message" required></textarea>
             <button type="submit">Send</button>
         </form>
         <p>Or reach me at:</p>
         <p>Email: stewartdevin121@gmail.com</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/devin-stewart-540aa1309/" target="_blank">Click Here</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/devin-stewart-540aa1309/" target="_blank" rel="noopener noreferrer">Click Here</a></p>
     </section>
 
     <!-- Footer -->
@@ -99,4 +96,5 @@
     <script src="script.js"></script>
 </body>
 </html>
+
 
